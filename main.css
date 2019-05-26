@@ -1,0 +1,52 @@
+body{
+ margin: 0;   
+}
+header{
+    background:black;
+}
+head h1 {
+margin: 0;
+}
+nav ul{
+    margin: 0;
+}
+
+img.align-center{
+    display: block;
+    margin: auto;
+} 
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1%;
+    margin: 5;
+}
+
+nav ul li a {
+    color: darkviolet;   
+}
+
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 50px 50px;
+    padding: 50px;
+    border-top: 3px solid #665544;
+    border-bottom: 3px solid #665544;}
+
+.row{
+    clear: both;;
+}
+.col{
+    background: #333;
+    border-radius: 1%;
+    padding: 20% .5%;
+    color: darkviolet;
+    float: left;
+    margin: 1%;
+    width: 30%;
+}

@@ -1,0 +1,57 @@
+body {
+margin: 1%;
+padding: 1%;
+}
+
+header{
+    background:black;
+}
+h1{
+    color: blueviolet;
+}
+nav ul li a {
+    color: darkviolet;  
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1%;
+    margin: 1%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-areas: 
+    "title title title"
+    "left QLW right"
+    "footer footer footer";
+}
+
+.title{
+    grid-area:title;
+    background-color: rgb(27, 120, 163);
+}
+
+.left{
+    grid-area:left;  
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIG8wmz1ms8A5CjyZtAXU4XraE3F5QpIATVMO-ZaOUWAQrzkM2SA)
+}
+.QLW{
+    grid-area:QLW;  
+    background-color: brown;
+}
+
+.right{
+    grid-area:right; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIG8wmz1ms8A5CjyZtAXU4XraE3F5QpIATVMO-ZaOUWAQrzkM2SA)
+     
+}
+
+.footer{
+    grid-area:footer; 
+    background-color: grey;  
+}
+

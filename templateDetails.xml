@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9.3" type="template">
+	<name>login</name>
+	<creationDate>2019-06-06</creationDate>
+	<author>Michale Gibbs</author>
+	<authorEmail>Coygmcoygibbs77@gmail.com</authorEmail>
+	<authorUrl> https://emperorjs.github.io/EmperorJS/</authorUrl>
+	<copyright>John Doe 2008</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>Final Project</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>assig.php</filename>
+        <filename>page2.html</filename>
+        <filename>page3.html</filename>
+        <filename>page4.html</filename>
+        <filename>process.php</filename>
+        <filename>register.php</filename>
+        <filename>style.css</filename>
+        <filename>main.css</filename>
+        <filename>Gridlayout.css</filename>
+        <filename>Gridlayout2.css</filename>
+        <filename>login.php</filename>
+        <filename>8765848-abstract-background-graphics-created-with-technology.jpg</filename>
+        <filename>graphicsdesign.jpg</filename>
+        <filename>graphicsdesign.jpg</filename>
+		
+	</files>
+	
+</extension>
